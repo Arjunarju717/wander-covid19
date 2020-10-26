@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wander Covid-19 Updates</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script type="text/javascript" src="js/covid-data.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/common.css" />
+</head>
+<body>
+	<div class="container tableDiv">
+		<div class="form-group form-button">
+			<input type="submit" name="signout" id="signout" class="form-submit" value="Log Out" />
+		</div>
+		<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+		<h1>State Wise Covid-19 Data</h1>
+		<h4>Filter Table Details</h4>
+		<input type="text" id="websiteNameFiltr" class="eventTablefilter" placeholder="By State Name..."> <br /> <br />
+		<table id="eventTable" class="table table-bordered data-table">
+			<thead>
+				<th>State</th>
+				<th>New Recovered</th>
+				<th>Total Recovered</th>
+				<th>New Infected</th>
+				<th>Total Infected</th>
+				<th>New Deceased</th>
+				<th>Total Deceased</th>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
